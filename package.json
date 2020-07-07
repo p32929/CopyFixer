@@ -1,0 +1,80 @@
+{
+    "name": "reactron-p32929",
+    "version": "0.1.0",
+    "homepage": "./",
+    "main": "public/electron.js",
+    "private": true,
+    "scripts": {
+        "start": "concurrently yarn:*:dev",
+        "electron:dev": "nodemon --exec \"electron . --debug\"",
+        "react:dev": "react-scripts start",
+        "react:build": "react-scripts build",
+        "dist:win": "yarn react:build && electron-builder --win",
+        "dist:linux": "yarn react:build && electron-builder --linux",
+        "dist:mac": "yarn react:build && electron-builder --mac"
+    },
+    "build": {
+        "appId": "wilianzilv.reactron",
+        "productName": "copy-fixer",
+        "files": [
+            "build/**/*",
+            "node_modules/**/*",
+            "backend/**",
+            "src/**/**"
+        ],
+        "extraResources": [
+            {
+                "from": "./resources/",
+                "to": "./"
+            }
+        ],
+        "win": {
+            "target": "nsis",
+            "icon": "resources/media/icon.ico"
+        },
+        "mac": {
+            "category": "your.app.category",
+            "icon": "resources/media/icon.ico"
+        },
+        "linux": {
+            "category": "Your app category",
+            "icon": "resources/media/icon.ico",
+            "target": {
+                "target": "appimage",
+                "arch": [
+                    "x64"
+                ]
+            }
+        }
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.10.2",
+        "@material-ui/lab": "^4.0.0-alpha.56",
+        "electron-is-dev": "^1.2.0",
+        "overmind": "^24.1.1",
+        "overmind-react": "^25.1.1",
+        "react-router-dom": "^5.2.0"
+    },
+    "devDependencies": {
+        "concurrently": "^5.1.0",
+        "electron": "^8.2.3",
+        "electron-builder": "^22.5.1",
+        "electron-devtools-installer": "^3.0.0",
+        "nodemon": "^2.0.3",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.1"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
