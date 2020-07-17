@@ -17,7 +17,10 @@ Sharing with your friends is just one click away from here
 ## Support
 If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
 
-# How to use
+## Download
+EXE: https://github.com/p32929/CopyFixer/releases/latest/
+
+## How to use
 1. Open the app
 2. Copy any text from Lector
 3. Crtl+Shift+C to trim the texts
