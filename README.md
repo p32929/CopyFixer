@@ -18,7 +18,7 @@ Sharing with your friends is just one click away from here
 If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
 
 ## Download
-EXE: https://github.com/p32929/CopyFixer/releases/latest/
+EXE: https://github.com/p32929/CopyFixer/releases/download/0.1.0/copy-fixer.Setup.0.1.0.exe
 
 ## How to use
 1. Open the app
