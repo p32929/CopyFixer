@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {useOvermind} from '../Others/OvermindHelper'
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
+
+const styles = {
+    p: {
+        fontSize: 14
+    }
+}
+
 //
 const electron = window.require('electron')
 
@@ -27,21 +34,20 @@ const getKey = (actions, state) => {
 const WholeThing = (props) => {
     const {actions, state} = useOvermind()
 
+    useEffect(() => {
+        getKey(actions, state)
+    }, [actions, state])
+
     return (
-        <Grid style={{padding: 36}} container direction='column' justify='center' alignContent='center'
+        <Grid style={{padding: 16}} container direction='column' justify='center' alignContent='center'
               alignItems='center'>
-
-            {
-                getKey(actions, state)
-            }
-
-            <Button variant='contained' style={{backgroundColor: state.enabled ? "#E53935" : "#43A047", color: "#FFF"}}
+            <Button size='small' variant='contained'
+                    style={{backgroundColor: state.enabled ? "#E53935" : "#43A047", color: "#FFF"}}
                     onClick={() => {
                         actions.changeEnabled()
                     }}>{state.enabled ? "Disable" : "Enable"}</Button>
 
-            <p>{state.copiedText}</p>
-
+            <p style={styles.p}>{state.copiedText}</p>
         </Grid>
     );
 };
