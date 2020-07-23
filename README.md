@@ -1,21 +1,27 @@
-<p align="center">
-  <img src="resources/media/logo_title.png" height="175" width="175" alt="Unform" />
-</p>
+A simple app to help me copy/paste TEXTs from Lector PDF reader to my Evernote.
 
-# Reactron - P32929
+[![](https://badgen.net/github/release/p32929/CopyFixer)]() [![](https://badgen.net/github/release/p32929/CopyFixer/stable)]() [![](https://badgen.net/github/tag/p32929/CopyFixer)]() [![](https://badgen.net/github/watchers/p32929/CopyFixer)]() [![](https://badgen.net/github/checks/p32929/CopyFixer)]() [![](https://badgen.net/github/status/p32929/CopyFixer)]() [![](https://badgen.net/github/stars/p32929/CopyFixer)]() [![](https://badgen.net/github/forks/p32929/CopyFixer)]() [![](https://badgen.net/github/issues/p32929/CopyFixer)]() [![](https://badgen.net/github/open-issues/p32929/CopyFixer)]() [![](https://badgen.net/github/closed-issues/p32929/CopyFixer)]() [![](https://badgen.net/github/label-issues/p32929/CopyFixer/help-wanted/open)]() [![](https://badgen.net/github/prs/p32929/CopyFixer)]() [![](https://badgen.net/github/open-prs/p32929/CopyFixer)]() [![](https://badgen.net/github/closed-prs/p32929/CopyFixer)]() [![](https://badgen.net/github/merged-prs/p32929/CopyFixer)]() [![](https://badgen.net/github/commits/p32929/CopyFixer)]() [![](https://badgen.net/github/last-commit/p32929/CopyFixer)]() [![](https://badgen.net/github/branches/p32929/CopyFixer)]() [![](https://badgen.net/github/releases/p32929/CopyFixer)]() [![](https://badgen.net/github/tags/p32929/CopyFixer)]() [![](https://badgen.net/github/license/p32929/CopyFixer)]() [![](https://badgen.net/github/contributors/p32929/CopyFixer)]() [![](https://badgen.net/github/dependents-pkg/p32929/CopyFixer)]() 
 
-# What's in it
-1. ReactJS
-2. ElectronJS
-3. Material UI
-4. React Router DOM
-5. Overmind React
+## Share
+Sharing with your friends is just one click away from here
 
-# How to use:
-1. Clone
-2. Yarn
-3. Yarn start
+[![facebook](https://image.flaticon.com/icons/png/32/124/124010.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/CopyFixer)
+[![twitter](https://image.flaticon.com/icons/png/32/124/124021.png)](https://twitter.com/intent/tweet?source=https://github.com/p32929/CopyFixer)
+[![tumblr](https://image.flaticon.com/icons/png/32/124/124012.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/CopyFixer)
+[![pocket](https://image.flaticon.com/icons/png/32/732/732238.png)](https://getpocket.com/save?url=https://github.com/p32929/CopyFixer)
+[![pinterest](https://image.flaticon.com/icons/png/32/124/124039.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/CopyFixer)
+[![reddit](https://image.flaticon.com/icons/png/32/2111/2111589.png)](https://www.reddit.com/submit?url=https://github.com/p32929/CopyFixer)
+[![linkedin](https://image.flaticon.com/icons/png/32/1409/1409945.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/CopyFixer)
+[![whatsapp](https://image.flaticon.com/icons/png/32/733/733585.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/CopyFixer)
 
-For more info about how to use, check this: [Reactron](https://github.com/WilianZilv/reactron).
+## Support
+If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
 
-Thanks to WilianZilv for making [Reactron](https://github.com/WilianZilv/reactron).
+## Download
+EXE: https://github.com/p32929/CopyFixer/releases/download/0.1.0/copy-fixer.Setup.0.1.0.exe
+
+## How to use
+1. Open the app
+2. Copy any text from Lector
+3. Crtl+Shift+C to trim the texts
+4. Paste anywhere ( Specially evernote )
