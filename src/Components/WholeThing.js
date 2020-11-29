@@ -18,10 +18,19 @@ const getKey = (actions, state) => {
         actions.setCopiedText(electron.clipboard.readText())
 
         electron.remote.globalShortcut.register(`CommandOrControl+Shift+C`, () => {
+            // var textFromClipboard = electron.clipboard.readText()
+            // console.log("TFC: " + textFromClipboard)
+            // actions.setCopiedText(textFromClipboard.trim())
+            // electron.clipboard.writeText(textFromClipboard.trim())
+            // https://github.com/douglasofreitas/friendly-react-seo.git
+
             var textFromClipboard = electron.clipboard.readText()
-            console.log("TFC: " + textFromClipboard)
+            var splittedArr = textFromClipboard.split("/")
+            var repoUrl = splittedArr[splittedArr.length - 1]
+            var userName = splittedArr[splittedArr.length - 2]
+
             actions.setCopiedText(textFromClipboard.trim())
-            electron.clipboard.writeText(textFromClipboard.trim())
+            electron.clipboard.writeText(`git clone ${textFromClipboard} ${userName}--${repoUrl}`)
         })
 
     } else {
